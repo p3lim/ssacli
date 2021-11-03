@@ -1,0 +1,6 @@
+[spp]
+name=Service Pack for ProLiant
+baseurl=http://downloads.linux.hpe.com/repo/spp-gen10/rhel/8/x86_64/current
+enabled=1
+gpgcheck=0
+gpgkey=file:///etc/pki/rpm-gpg/GPG-KEY-ServicePackforProLiant
