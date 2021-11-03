@@ -16,7 +16,7 @@ jobs:
         uses: redhat-actions/buildah-build@v2
         with:
           containerfiles: Dockerfile
-          image: ${{ github.repository }}
+          image: ssacli
           tags: latest
         id: image
 
